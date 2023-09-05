@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
 class Dice(private val numFaces: Int, private val numDice: Int) {
 
-    private fun roll(): Int {
+     fun roll(): Int {
         return (1..numFaces).random() // Simula il lancio di un dado e restituisce un numero casuale
     }
 
